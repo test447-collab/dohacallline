@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doha Call Line | Engineering Comfort. Building Excellence.</title>
+  <meta name="description" content="Professional company profile website for Doha Call Line engineering and contracting services." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&family=Noto+Sans:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="container navbar">
+      <a class="brand" href="./index.html" aria-label="Doha Call Line Home">
+        <img loading="eager" decoding="async" src="assets/dcl-logo-real.png" alt="Doha Call Line logo">
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="nav_about">About Us</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#projects" data-i18n="nav_projects">Projects</a>
+        <a href="#clients" data-i18n="nav_clients">Clients</a>
+        <a href="#contact" data-i18n="nav_contact">Contact Us</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+          <span class="theme-icon sun" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg></span><span class="theme-icon moon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 13.5A8.5 8.5 0 0 1 10.5 3a7 7 0 1 0 10.5 10.5z"></path></svg></span>
+        </button>
+        <select class="language-select" id="languageSelect" aria-label="Choose language">
+          <option value="en">🇬🇧 English</option>
+          <option value="ar">🇶🇦 العربية</option>
+        </select>
+        <button class="btn btn-orange open-enquiry" type="button" data-i18n="btn_enquiry">Send Enquiry</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg active" style="background-image:url('assets/hero-hvac.jpg')"></div>
+      <div class="hero-bg" style="background-image:url('assets/hero-civil.jpg')"></div>
+      <div class="hero-bg" style="background-image:url('assets/hero-mep.jpg')"></div>
+      <div class="hero-bg" style="background-image:url('assets/hero-interior.jpg')"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow" data-i18n="hero_eyebrow">Engineering Comfort. Building Excellence.</span>
+          <h1 data-i18n="hero_title">Integrated Engineering Solutions You Can Trust</h1>
+          <p data-i18n="hero_text">Delivering high-quality HVAC, Civil, MEP and Interior Decoration solutions with safety, integrity and unmatched performance.</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-orange" data-i18n="btn_services">Our Services</a>
+            <a href="#projects" class="btn btn-outline" data-i18n="btn_projects">Explore Projects</a>
+          </div>
+
+          <!-- Service quick buttons removed as requested -->
+
+        </div>
+
+        <div class="hero-panel reveal delay-1">
+          <div class="hero-building"></div>
+          <div class="hero-mini-card">
+            <strong data-i18n="hero_card_title">Qatar-based engineering partner</strong>
+            <span data-i18n="hero_card_text">Built for residential, commercial and industrial project delivery.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-projects">
+      <div class="container project-overview-grid">
+        <article class="project-overview-card reveal" style="--img:url('assets/project-hvac-chilled-water.jpg')">
+          <span class="project-overview-title" data-i18n="overview_hvac_title">HVAC PROJECT</span>
+        </article>
+        <article class="project-overview-card reveal delay-1" style="--img:url('assets/project-civil-structural.jpg')">
+          <span class="project-overview-title" data-i18n="overview_civil_title">CIVIL PROJECT</span>
+        </article>
+        <article class="project-overview-card reveal" style="--img:url('assets/project-mep-electrical.jpg')">
+          <span class="project-overview-title" data-i18n="overview_mep_title">MEP PROJECT</span>
+        </article>
+        <article class="project-overview-card reveal delay-1" style="--img:url('assets/project-decoration-flooring-tiling.jpg')">
+          <span class="project-overview-title" data-i18n="overview_interior_title">DECORATION PROJECT</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-vision">
+      <div class="container about-grid">
+        <div class="about-copy reveal">
+          <span class="eyebrow" data-i18n="about_eyebrow">About Doha Call Line (DCL)</span>
+          <h2 data-i18n="about_title">Engineering solutions that build better futures.</h2>
+          <p data-i18n="about_text_1">Doha Call Line is a Qatar-based multidisciplinary company providing HVAC Solutions, Civil Works, MEP Services and Interior Decoration for residential, commercial and industrial projects.</p>
+          <p data-i18n="about_text_2">With over a decade of experience, DCL has grown from a trusted cooling solutions provider to a reliable engineering and construction partner known for quality, safety and timely delivery.</p>
+
+          <div class="stats-row">
+            <div><strong>10+</strong><span data-i18n="stat_years">Years Experience</span></div>
+            <div><strong>250+</strong><span data-i18n="stat_projects">Projects Completed</span></div>
+            <div><strong>100+</strong><span data-i18n="stat_team">Skilled Professionals</span></div>
+          </div>
+        </div>
+
+        <div class="vision-mission reveal delay-1">
+          <article>
+            <span class="circle-icon pro-circle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg></span>
+            <h3 data-i18n="vision_title">Vision</h3>
+            <p data-i18n="vision_text">To become a leading engineering and construction service provider in Qatar, recognized for quality, innovation, reliability and sustainable solutions.</p>
+          </article>
+          <article>
+            <span class="circle-icon orange pro-circle" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 21V4"></path><path d="M5 4h12l-2 4 2 4H5"></path></svg></span>
+            <h3 data-i18n="mission_title">Mission</h3>
+            <p data-i18n="mission_text">To deliver high-quality HVAC, Civil, MEP and Interior Decoration solutions through expertise, integrity and commitment to exceeding client expectations.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="container values-wrap">
+        <div class="section-heading center reveal">
+          <span class="eyebrow" data-i18n="values_eyebrow">Core Values</span>
+          <h2 data-i18n="values_title">Safe, quality and sustainable delivery.</h2>
+          <p data-i18n="values_text">We are dedicated to delivering safe, quality and sustainable projects that create long term value for our clients and community.</p>
+        </div>
+        <div class="values-grid">
+          <article class="value-card reveal" style="--img:url('assets/hse-quality.jpg')"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3.2 8.2-7 10-3.8-1.8-7-5-7-10V6l7-3z"></path><path d="M9.5 12.5l1.8 1.8 3.7-4"></path></svg></span><b><span data-i18n="value_quality">Quality</span></b><p data-i18n="value_quality_text">We deliver quality workmanship in everything we do.</p></article>
+          <article class="value-card reveal delay-1" style="--img:url('assets/hse-ppe.jpg')"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10l2-5h12l2 5"></path><path d="M7 10v2a5 5 0 0 0 10 0v-2"></path><path d="M9 20v-3"></path><path d="M15 20v-3"></path><path d="M6 20h12"></path></svg></span><b><span data-i18n="value_safety">Safety</span></b><p data-i18n="value_safety_text">We prioritize safety for our people, clients and projects.</p></article>
+          <article class="value-card reveal" style="--img:url('assets/about-bg.jpg')"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7.5 12.5l2.2 2.2c.8.8 2.1.8 2.9 0l3.9-3.9"></path><path d="M3 12l4-4 4 4"></path><path d="M21 12l-4-4-4 4"></path></svg></span><b><span data-i18n="value_integrity">Integrity</span></b><p data-i18n="value_integrity_text">We operate with honesty, transparency and fairness.</p></article>
+          <article class="value-card reveal delay-1" style="--img:url('assets/hero-mep.jpg')"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18h6"></path><path d="M10 22h4"></path><path d="M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"></path><path d="M12 6v4"></path><path d="M10 10h4"></path></svg></span><b><span data-i18n="value_innovation">Innovation</span></b><p data-i18n="value_innovation_text">We embrace new ideas and technology to deliver better solutions.</p></article>
+          <article class="value-card reveal" style="--img:url('assets/qatar-landscape.jpg')"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 4c-7 0-11 4-11 11 0 2 1 4 3 5"></path><path d="M20 4c0 7-4 11-11 11"></path><path d="M5 21c1-5 4-9 9-12"></path></svg></span><b><span data-i18n="value_sustainability">Sustainability</span></b><p data-i18n="value_sustainability_text">We are committed to environmental responsibility and a sustainable future.</p></article>
+          <article class="value-card reveal delay-1" style="--img:url('assets/team-engineers.jpg')"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"></circle><circle cx="16" cy="8" r="3"></circle><path d="M3 20a5 5 0 0 1 10 0"></path><path d="M11 20a5 5 0 0 1 10 0"></path></svg></span><b><span data-i18n="value_teamwork">Teamwork</span></b><p data-i18n="value_teamwork_text">We believe in collaboration to achieve excellence together.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="eyebrow" data-i18n="services_eyebrow">Discover Our Services</span>
+          <h2 data-i18n="services_title">Complete engineering services under one platform.</h2>
+          <p data-i18n="services_text">Clear scopes, coordinated execution and reliable project delivery across HVAC, Civil, MEP and Interior Decoration.</p>
+        </div>
+        <div class="services-grid services-grid-detailed">
+          <article class="service-card reveal">
+            <img loading="lazy" decoding="async" src="assets/project-hvac-ahu-fahu.jpg" alt="HVAC installation">
+            <div>
+              <h3 data-i18n="svc_hvac_title">HVAC Solutions</h3>
+              <p data-i18n="svc_hvac_text">Design, supply, installation, testing and maintenance of air conditioning, ventilation and refrigeration systems.</p>
+              <ul class="service-list">
+                <li data-i18n="svc_hvac_p1">Load calculating & system design</li>
+                <li data-i18n="svc_hvac_p2">VRF/VRV, chilled water & DX systems</li>
+                <li data-i18n="svc_hvac_p3">AHU, FCU, FAHU & RAHU installation</li>
+                <li data-i18n="svc_hvac_p4">Ducting, insulation & air distribution</li>
+                <li data-i18n="svc_hvac_p5">Testing, commissioning & maintenance</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-card reveal delay-1">
+            <img loading="lazy" decoding="async" src="assets/project-civil-structural.jpg" alt="Civil works">
+            <div>
+              <h3 data-i18n="svc_civil_title">Civil Works</h3>
+              <p data-i18n="svc_civil_text">Structural works, concrete works, masonry, plastering, tiling, and all related civil construction services.</p>
+              <ul class="service-list">
+                <li data-i18n="svc_civil_p1">Structural works (RCC, steel & masonry)</li>
+                <li data-i18n="svc_civil_p2">Concrete works & formwork</li>
+                <li data-i18n="svc_civil_p3">Roads, paving & infrastructure works</li>
+                <li data-i18n="svc_civil_p4">Excavation, backfilling & compaction</li>
+                <li data-i18n="svc_civil_p5">Finishing & refurbishment works</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <img loading="lazy" decoding="async" src="assets/project-mep-bms-control.jpg" alt="MEP services">
+            <div>
+              <h3 data-i18n="svc_mep_title">MEP Services</h3>
+              <p data-i18n="svc_mep_text">Mechanical, electrical & plumbing services including HVAC, electrical systems, plumbing, firefighting and more.</p>
+              <ul class="service-list">
+                <li data-i18n="svc_mep_p1">Electrical power distribution (LV/MV)</li>
+                <li data-i18n="svc_mep_p2">Lighting, emergency & exterior lighting</li>
+                <li data-i18n="svc_mep_p3">Plumbing, sanitary systems</li>
+                <li data-i18n="svc_mep_p4">Fire alarm, fire fighting & Gas systems</li>
+                <li data-i18n="svc_mep_p5">BMS, ELV, Data & Communication</li>
+                <li data-i18n="svc_mep_p6">Testing, commissioning & maintenance</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-card reveal delay-1">
+            <img loading="lazy" decoding="async" src="assets/project-decoration-flooring-tiling.jpg" alt="Interior decoration">
+            <div>
+              <h3 data-i18n="svc_interior_title">Interior Decoration</h3>
+              <p data-i18n="svc_interior_text">Interior design, fit-out, ceiling, flooring, painting, partitions, lighting and all interior decoration works.</p>
+              <ul class="service-list">
+                <li data-i18n="svc_interior_p1">Interior design & space planning</li>
+                <li data-i18n="svc_interior_p2">Gypsum works, partitions & ceilings</li>
+                <li data-i18n="svc_interior_p3">Flooring (tiles, marble, vinyl, carpet, etc)</li>
+                <li data-i18n="svc_interior_p4">Painting, wallpaper & wall finishes</li>
+                <li data-i18n="svc_interior_p5">Joinery, carpentry & custom furniture</li>
+                <li data-i18n="svc_interior_p6">Lighting design & decorative works</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="solutions" class="section solutions-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow" data-i18n="solutions_eyebrow">Integrated Engineering Solutions</span>
+          <h2 data-i18n="solutions_title">We build more than projects — we build trust.</h2>
+        </div>
+        <div class="solutions-grid">
+          <article class="solution-card reveal"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 15.5A3.5 3.5 0 1 0 12 8a3.5 3.5 0 0 0 0 7.5z"></path><path d="M19 13.5v-3l-2.1-.7c-.2-.6-.4-1.1-.7-1.6l1-2-2.1-2.1-2 1c-.5-.3-1-.5-1.6-.7L10.8 2h-3l-.7 2.1c-.6.2-1.1.4-1.6.7l-2-1-2.1 2.1 1 2c-.3.5-.5 1-.7 1.6L-.5 10.2v3l2.1.7c.2.6.4 1.1.7 1.6l-1 2 2.1 2.1 2-1c.5.3 1 .5 1.6.7l.7 2.1h3l.7-2.1c.6-.2 1.1-.4 1.6-.7l2 1 2.1-2.1-1-2c.3-.5.5-1 .7-1.6l2.2-.4z" transform="translate(2.5)"></path></svg></span><h3 data-i18n="sol_design">Design & Engineering</h3><p data-i18n="sol_design_text">Technical drawings, calculations and engineering documentation.</p></article>
+          <article class="solution-card reveal delay-1"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7l8-4 8 4-8 4-8-4z"></path><path d="M4 7v10l8 4 8-4V7"></path><path d="M12 11v10"></path></svg></span><h3 data-i18n="sol_procurement">Procurement & Supply</h3><p data-i18n="sol_procurement_text">Material sourcing, supplier coordination and project logistics.</p></article>
+          <article class="solution-card reveal"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18"></path><path d="M6 21V9l6-4 6 4v12"></path><path d="M9 21v-6h6v6"></path><path d="M9 11h6"></path></svg></span><h3 data-i18n="sol_construction">Construction & Installation</h3><p data-i18n="sol_construction_text">Site execution by skilled teams with quality and safety control.</p></article>
+          <article class="solution-card reveal delay-1"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"></path><path d="M4 20h16"></path></svg></span><h3 data-i18n="sol_testing">Testing & Commissioning</h3><p data-i18n="sol_testing_text">Performance verification, inspection and handover readiness.</p></article>
+          <article class="solution-card reveal"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-3 3-3-3 3-3z"></path></svg></span><h3 data-i18n="sol_maintenance">Operation & Maintenance</h3><p data-i18n="sol_maintenance_text">Reliable after-service support and preventive maintenance.</p></article>
+          <article class="solution-card reveal delay-1"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"></circle><path d="M12 15h9"></path><path d="M17 15v-3"></path><path d="M20 15v-2"></path></svg></span><h3 data-i18n="sol_turnkey">Turnkey Project Delivery</h3><p data-i18n="sol_turnkey_text">One platform from concept to completion.</p></article>
+        </div>
+        <div class="iso-strip reveal">
+          <div class="iso-item">
+            <img loading="lazy" decoding="async" class="iso-qro-logo" src="assets/qro-logo.png" alt="QRO logo">
+            <div class="iso-copy"><strong>ISO 9001:2015</strong><span data-i18n="iso_quality">Quality Management</span></div>
+          </div>
+          <div class="iso-item">
+            <img loading="lazy" decoding="async" class="iso-qro-logo" src="assets/qro-logo.png" alt="QRO logo">
+            <div class="iso-copy"><strong>ISO 14001:2015</strong><span data-i18n="iso_env">Environmental Management</span></div>
+          </div>
+          <div class="iso-item">
+            <img loading="lazy" decoding="async" class="iso-qro-logo" src="assets/qro-logo.png" alt="QRO logo">
+            <div class="iso-copy"><strong>ISO 45001:2018</strong><span data-i18n="iso_safety">Occupational Health & Safety</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section team-section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="eyebrow" data-i18n="team_eyebrow">Team & Organization</span>
+          <h2 data-i18n="team_title">Organized for efficient project delivery.</h2>
+          <p data-i18n="team_text">Our organizational structure is designed to ensure efficient project delivery, clear communication and accountability at every level.</p>
+        </div>
+        <div class="org-box reveal">
+          <div class="org-manager-card" style="--img:url('assets/team-project.jpg')">
+            <div class="org-manager-badge" data-i18n="org_general">General Manager</div>
+            <div class="org-manager-info">
+              <strong data-i18n="org_leadership_title">Leadership & Strategic Oversight</strong>
+              <p data-i18n="org_leadership_text">Overall direction, business strategy, stakeholder coordination and project performance management.</p>
+            </div>
+          </div>
+          <div class="org-grid">
+            <article style="--img:url('assets/team-engineers.jpg')"><b data-i18n="org_engineers">Engineers</b><p data-i18n="org_engineers_text">Technical design, calculations, project planning and documentation.</p></article>
+            <article style="--img:url('assets/team-project.jpg')"><b data-i18n="org_pm">Project Managers</b><p data-i18n="org_pm_text">Planning, budget, scheduling, client coordination and risk management.</p></article>
+            <article style="--img:url('assets/team-supervisor.jpg')"><b data-i18n="org_supervisors">Supervisors</b><p data-i18n="org_supervisors_text">Site supervision, quality monitoring and safe execution of works.</p></article>
+            <article style="--img:url('assets/team-technician.jpg')"><b data-i18n="org_technicians">Technicians</b><p data-i18n="org_technicians_text">Installation, testing, commissioning, operation and maintenance.</p></article>
+            <article style="--img:url('assets/team-support.jpg')"><b data-i18n="org_support">Support Functions</b><p data-i18n="org_support_text">Admin, HR, procurement, QA/QC, finance and HSE support.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hse" class="section hse-section">
+      <div class="container hse-grid-layout">
+        <div class="hse-panel reveal">
+          <span class="safety-pill" data-i18n="hse_badge">Safety First</span>
+          <h2 data-i18n="hse_title">Health, Safety & Quality</h2>
+          <p data-i18n="hse_text">We are committed to the health, safety and well-being of our people, our clients and the communities in which we work.</p>
+        </div>
+        <div class="hse-cards">
+          <article class="hse-card reveal" style="--img:url('assets/hse-ppe.jpg')"><h3 data-i18n="hse_ppe">PPE Compliance</h3><p data-i18n="hse_ppe_text">Mandatory PPE, helmets, safety shoes, gloves and goggles.</p></article>
+          <article class="hse-card reveal delay-1" style="--img:url('assets/hse-risk.jpg')"><h3 data-i18n="hse_risk">Risk Assessment</h3><p data-i18n="hse_risk_text">Hazard identification, risk evaluation and control measures.</p></article>
+          <article class="hse-card reveal" style="--img:url('assets/hse-toolbox.jpg')"><h3 data-i18n="hse_toolbox">Toolbox Talks</h3><p data-i18n="hse_toolbox_text">Daily safety briefing, task planning and worker awareness.</p></article>
+          <article class="hse-card reveal delay-1" style="--img:url('assets/hse-emergency.jpg')"><h3 data-i18n="hse_emergency">Emergency Response</h3><p data-i18n="hse_emergency_text">Emergency procedures, evacuation plans and first aid readiness.</p></article>
+          <article class="hse-card reveal" style="--img:url('assets/hse-quality.jpg')"><h3 data-i18n="hse_quality">Quality Inspections</h3><p data-i18n="hse_quality_text">Material inspections, method statements and final testing.</p></article>
+          <article class="hse-card reveal delay-1" style="--img:url('assets/hse-record.jpg')"><h3 data-i18n="hse_record">Record & Reporting</h3><p data-i18n="hse_record_text">Inspection records, NCR tracking and corrective actions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section why-section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="eyebrow" data-i18n="why_eyebrow">Why Choose Us</span>
+          <h2 data-i18n="why_title">Reliable delivery from planning to commissioning.</h2>
+        </div>
+        <div class="why-grid">
+          <article class="why-item reveal"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"></circle><path d="M8 12v2.5a4 4 0 0 0 8 0V12"></path><path d="M9 19h6"></path><path d="M10 3h4"></path></svg></span><b data-i18n="why_exp">10+ Years Experience</b><p data-i18n="why_exp_text">Extensive experience across HVAC, Civil, MEP and fit-out projects.</p></article>
+          <article class="why-item reveal delay-1"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10l2-5h12l2 5"></path><path d="M7 10v2a5 5 0 0 0 10 0v-2"></path><path d="M9 20v-3"></path><path d="M15 20v-3"></path><path d="M6 20h12"></path></svg></span><b data-i18n="why_manpower">Skilled Technical Manpower</b><p data-i18n="why_manpower_text">Qualified engineers, supervisors, technicians and skilled workers.</p></article>
+          <article class="why-item reveal"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3.2 8.2-7 10-3.8-1.8-7-5-7-10V6l7-3z"></path><path d="M9.5 12.5l1.8 1.8 3.7-4"></path></svg></span><b data-i18n="why_qaqc">Quality Assurance & QA/QC</b><p data-i18n="why_qaqc_text">Strict compliance with specifications, inspection and standards.</p></article>
+          <article class="why-item reveal delay-1"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 8v5l3 2"></path><path d="M12 4V2"></path></svg></span><b data-i18n="why_time">On-Time Project Delivery</b><p data-i18n="why_time_text">Efficient planning, coordination and execution without compromising quality.</p></article>
+          <article class="why-item reveal"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 10l2-5h12l2 5"></path><path d="M7 10v2a5 5 0 0 0 10 0v-2"></path><path d="M9 20v-3"></path><path d="M15 20v-3"></path><path d="M6 20h12"></path></svg></span><b data-i18n="why_hse">HSE & Safety Commitment</b><p data-i18n="why_hse_text">Risk assessment, toolbox talks and safe working procedures.</p></article>
+          <article class="why-item reveal delay-1"><span class="pro-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18"></path><path d="M3 12h18"></path><path d="M6 6l12 12"></path><path d="M18 6L6 18"></path></svg></span><b data-i18n="why_integrated">Integrated Engineering Solutions</b><p data-i18n="why_integrated_text">HVAC, Civil, MEP and Interior services under one coordinated platform.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="eyebrow" data-i18n="projects_eyebrow">Our Projects</span>
+          <h2 data-i18n="projects_title">Project capabilities across every discipline.</h2>
+          <p data-i18n="projects_text">Choose a project category to view details and sample project visuals.</p>
+        </div>
+
+        <div class="project-tabs reveal" id="projectTabs">
+          <button class="project-tab active" type="button" data-project="hvac" data-i18n="tab_hvac">HVAC Projects</button>
+          <button class="project-tab" type="button" data-project="civil" data-i18n="tab_civil">Civil Works</button>
+          <button class="project-tab" type="button" data-project="mep" data-i18n="tab_mep">MEP Projects</button>
+          <button class="project-tab" type="button" data-project="decoration" data-i18n="tab_decoration">Decoration Projects</button>
+        </div>
+
+        <div class="project-panel active" id="panel-hvac">
+          <div class="project-panel-copy"><span class="eyebrow" data-i18n="overview_hvac_title">HVAC PROJECT</span><h3 data-i18n="project_panel_hvac_title">HVAC solutions for efficient and reliable building comfort.</h3><p data-i18n="project_panel_hvac_text">From central chilled water plants to VRF/VRV systems, AHU/FAHU installation, ducting, testing and maintenance.</p></div>
+          <div class="project-gallery">
+            <figure><img loading="lazy" decoding="async" src="assets/project-hvac-chilled-water.jpg" alt="Central chilled water plant"><figcaption data-i18n="hvac_img_1">Central Chilled Water Plant</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-hvac-ahu-fahu.jpg" alt="AHU and FAHU installations"><figcaption data-i18n="hvac_img_2">AHU / FAHU Installations</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-hvac-ducting.jpg" alt="Ducting works"><figcaption data-i18n="hvac_img_3">Ducting Works (GI & Fabric)</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-hvac-vrf-vrv.jpg" alt="VRF and VRV systems"><figcaption data-i18n="hvac_img_4">VRF / VRV Systems</figcaption></figure>
+          </div>
+        </div>
+        <div class="project-panel" id="panel-civil">
+          <div class="project-panel-copy"><span class="eyebrow" data-i18n="overview_civil_title">CIVIL PROJECT</span><h3 data-i18n="project_panel_civil_title">Civil construction works delivered with safety and accuracy.</h3><p data-i18n="project_panel_civil_text">Structural works, concrete works, block work, masonry, waterproofing, finishing and related civil construction services.</p></div>
+          <div class="project-gallery">
+            <figure><img loading="lazy" decoding="async" src="assets/project-civil-concrete.jpg" alt="Concrete works"><figcaption data-i18n="civil_img_1">Concrete Works</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-civil-structural.jpg" alt="Structural works"><figcaption data-i18n="civil_img_2">Structural Works</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-civil-block-masonry.jpg" alt="Block work and masonry"><figcaption data-i18n="civil_img_3">Block Work & Masonry</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-civil-waterproofing.jpg" alt="Waterproofing works"><figcaption data-i18n="civil_img_4">Waterproofing Works</figcaption></figure>
+          </div>
+        </div>
+        <div class="project-panel" id="panel-mep">
+          <div class="project-panel-copy"><span class="eyebrow" data-i18n="overview_mep_title">MEP PROJECT</span><h3 data-i18n="project_panel_mep_title">Integrated mechanical, electrical and plumbing systems.</h3><p data-i18n="project_panel_mep_text">Electrical power distribution, lighting, LV systems, plumbing, drainage, BMS and control systems.</p></div>
+          <div class="project-gallery">
+            <figure><img loading="lazy" decoding="async" src="assets/project-mep-electrical.jpg" alt="Electrical power distribution"><figcaption data-i18n="mep_img_1">Electrical Power Distribution</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-mep-lighting-lv.jpg" alt="Lighting and LV systems"><figcaption data-i18n="mep_img_2">Lighting & LV Systems</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-mep-plumbing-drainage.jpg" alt="Plumbing and drainage systems"><figcaption data-i18n="mep_img_3">Plumbing & Drainage Systems</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-mep-bms-control.jpg" alt="BMS and control systems"><figcaption data-i18n="mep_img_4">BMS & Control Systems</figcaption></figure>
+          </div>
+        </div>
+        <div class="project-panel" id="panel-decoration">
+          <div class="project-panel-copy"><span class="eyebrow" data-i18n="overview_interior_title">DECORATION PROJECT</span><h3 data-i18n="project_panel_decoration_title">Interior fit-out and decoration works with refined finishing.</h3><p data-i18n="project_panel_decoration_text">Gypsum ceilings, partitions, painting, flooring, wall tiling, joinery, carpentry and decorative lighting.</p></div>
+          <div class="project-gallery">
+            <figure><img loading="lazy" decoding="async" src="assets/project-decoration-gypsum-partitions.jpg" alt="Gypsum ceiling and partitions"><figcaption data-i18n="decor_img_1">Gypsum Ceiling & Partitions</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-decoration-painting.jpg" alt="Painting works"><figcaption data-i18n="decor_img_2">Painting Works</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-decoration-flooring-tiling.jpg" alt="Flooring and wall tiling"><figcaption data-i18n="decor_img_3">Flooring & Wall Tiling</figcaption></figure>
+            <figure><img loading="lazy" decoding="async" src="assets/project-decoration-joinery-carpentry.jpg" alt="Joinery and carpentry"><figcaption data-i18n="decor_img_4">Joinery & Carpentry</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="section clients-section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <span class="eyebrow" data-i18n="clients_eyebrow">Major Clients</span>
+          <h2 data-i18n="clients_title">Trusted by leading organizations across Qatar.</h2>
+        </div>
+        <div class="clients-grid clients-grid-pro">
+          <article style="--img:url('assets/client-qatar.jpg')" class="client-card reveal">
+            <div>
+              <img loading="lazy" decoding="async" class="client-brand" src="assets/client-logo-qatar.png" alt="Qatar Museums logo">
+              <h3>Qatar Museums</h3>
+              <p data-i18n="client_qatar">Delivered comprehensive MEP solutions for various museum facilities, ensuring world-class comfort, efficiency, and reliability.</p>
+            </div>
+          </article>
+          <article style="--img:url('assets/client-redco.jpg')" class="client-card reveal delay-1">
+            <div>
+              <img loading="lazy" decoding="async" class="client-brand" src="assets/client-logo-redco.png" alt="Redco logo">
+              <h3>Redco</h3>
+              <p data-i18n="client_redco">Executed HVAC, plumbing, and MEP works for multiple residential, commercial, and infrastructure projects with high quality and on-time delivery.</p>
+            </div>
+          </article>
+          <article style="--img:url('assets/client-secc.jpg')" class="client-card reveal">
+            <div>
+              <img loading="lazy" decoding="async" class="client-brand" src="assets/client-logo-secc.png" alt="SECC logo">
+              <h3>SECC</h3>
+              <p data-i18n="client_secc">Partnered on large-scale infrastructure and building projects, providing complete MEP and civil engineering solutions.</p>
+            </div>
+          </article>
+          <article style="--img:url('assets/client-aljaber.jpg')" class="client-card reveal delay-1">
+            <div>
+              <img loading="lazy" decoding="async" class="client-brand" src="assets/client-logo-aljaber.png" alt="Al Jaber logo">
+              <h3>Al Jaber</h3>
+              <p data-i18n="client_aljaber">Delivered a wide range of MEP services across critical and commercial projects, meeting the highest standards of safety, quality, and performance.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow" data-i18n="contact_eyebrow">Contact Us</span>
+          <h2 data-i18n="contact_title">Let’s build the future together.</h2>
+          <p data-i18n="contact_text">Have a project in mind? Get in touch with us and we will deliver the right engineering solution.</p>
+          <div class="contact-cards">
+            <article><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.2 7-12A7 7 0 0 0 5 9c0 6.8 7 12 7 12z"></path><circle cx="12" cy="9" r="2.4"></circle></svg></span><div><b data-i18n="address_label">Address</b><p>Office 304, Level 30<br>Marina Twin Tower A<br>Lusail City, Qatar</p></div></article>
+            <article><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.7 19.7 0 0 1-8.6-3.1 19.3 19.3 0 0 1-6-6A19.7 19.7 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 1.9z"></path></svg></span><div><b data-i18n="phone_label">Mobile</b><p><a href="tel:+97433544161">+974 3354 4161</a></p></div></article>
+            <article><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"></path><path d="M4 7l8 6 8-6"></path></svg></span><div><b data-i18n="email_label">Emails</b><p><a href="mailto:info@dohacallline.com">info@dohacallline.com</a><br><a href="mailto:mohamadceo@dohacallline.com">mohamadceo@dohacallline.com</a></p></div></article>
+          </div>
+        </div>
+        <div class="contact-visual reveal delay-1"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><img loading="lazy" decoding="async" src="assets/dcl-logo-real.png" alt="Doha Call Line logo"><p data-i18n="footer_tagline">Engineering Comfort. Building Excellence.</p></div>
+      <div class="footer-links">
+        <a href="#about" data-i18n="nav_about">About Us</a>
+        <a href="#services" data-i18n="nav_services">Services</a>
+        <a href="#projects" data-i18n="nav_projects">Projects</a>
+        <a href="#contact" data-i18n="nav_contact">Contact Us</a>
+      </div>
+      <p>© 2026 Doha Call Line. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button class="floating-enquiry open-enquiry" type="button" data-i18n="btn_enquiry">Send Enquiry</button>
+
+  <div class="modal" id="enquiryModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="enquiryTitle">
+      <button class="modal-close" type="button" data-close-modal>×</button>
+      <span class="eyebrow" data-i18n="modal_eyebrow">Quick Contact</span>
+      <h2 id="enquiryTitle" data-i18n="modal_title">Send Enquiry</h2>
+      <form id="enquiryForm">
+        <label><span data-i18n="form_name">Your Name</span><input type="text" name="name" placeholder="Full name" required></label>
+        <label><span data-i18n="form_contact">Email / Phone</span><input type="text" name="contact" placeholder="Email or mobile number" required></label>
+        <label><span data-i18n="form_message">Message</span><textarea name="message" placeholder="Tell us about your project" required></textarea></label>
+        <button class="btn btn-orange full" type="submit" data-i18n="form_send">Send Email</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
