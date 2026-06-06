@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#1270d8"/><stop offset=".75" stop-color="#001b42"/></linearGradient></defs>
+<rect width="360" height="120" rx="24" fill="none"/>
+<g fill="url(#g)">
+<text x="12" y="58" font-family="Arial Black, Arial, sans-serif" font-size="52" font-weight="900">DCL</text>
+<path d="M142 72h16V42h18v30h16V22h16v50h16V35h18v37h17v10H142z"/>
+<path d="M271 22h26v60h-12V34h-14z"/><path d="M307 31h11v51h-11z"/>
+</g>
+<text x="13" y="92" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#001b42">DOHA CALL LINE</text>
+<text x="15" y="112" font-family="Arial, sans-serif" font-size="12" font-weight="800" fill="#ff7a18">ENGINEERING COMFORT. BUILDING EXCELLENCE.</text>
+</svg>
